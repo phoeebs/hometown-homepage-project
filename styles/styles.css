@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* padding: 0 20%; Get rid of the comment to see this in a more vertical view / or change the screen size lol  */
+    background-color: lightgray;
+}
+
+/* Header - the first section */
+
+#header {
+    height: 400px;
+    background-image: url(chester-background-image.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, .introduction-text {
+    padding: 5px 10px;
+    color: #f7f7ff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    background: #1D3557;
+    font-weight: 500;
+    font-size: 32px;
+    width: 225px;
+    margin-bottom: 11px;
+}
+
+.introduction-text {
+    background: #457B9D;
+    width: 420px;
+    font-weight: 400;
+    width: 415px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Activities - the second section */
+
+.activities {
+    height: 400px;
+    background: #EDE7E3;
+}
+
+.activities h3 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1D3557;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.activities-col img {       /* Unsure on how to make the pictures less squished - keep searching */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-bottom: 22px;
+}
+
+.activities-col {
+    text-align: center;
+    width: 198px;
+    height: 226px;
+    color: #1D3557;
+    font-size: 15x;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.activities-col h5 {
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+.activities-col h5 a {
+    text-decoration: none;
+    color: #1D3557;
+}
+
+.activities-col h5 a:hover {
+    text-decoration: underline;
+    color: #385987;
+}
+
+        /* Margi collapse at the bottom of the activites section - Can't find the solution but will keep searching! */
+
+/* Guide - the last section */
+
+.guide {
+    height: 400px;
+    background: #f7f7ff;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    background: #457B9D;
+    color: #f7f7ff;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+}
+
+.profile-img {
+    width: 200px;
+    height: 250px;
+    margin: 10px 7px 10px 15px;
+}
+
+.guide-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.guide-col .quote {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 10px 15px 10px;
+}
+
+.guide-col .name {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* End of Website */
+
+/* Things I need to search
+    - Margin collapse
+    - Image squishes and why?
+    - DRYer code
+    - Flexbox correctly? (unsure, but it works so that is a good start)
+*/
